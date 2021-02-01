@@ -1,0 +1,30 @@
+.navpad{
+    padding: 50px 100px;
+}
+
+body{
+    background:url(./petphotos/woodwall.jpg) no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+.marging{
+    margin: 100px;
+    padding: 95px 20px;
+    border: 100px;
+    height: 650px;
+    width: 650px;
+}
+
+.together{
+    /* padding: 100px 100px;
+    border: 100px; */
+    background: ;
+    width: 300px;
+    height: 300px;
+    outline: 5px solid black;
+    position: relative;
+    margin:100px 100px 100px 100;
+}
