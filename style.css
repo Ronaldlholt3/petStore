@@ -1,9 +1,15 @@
 .navpad{
     padding: 50px 100px;
+    font-family: 'Lemonada', cursive;
+    background:url(./petphotos/background2.jpg) no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
 }
 
 body{
-    background:url(./petphotos/woodwall.jpg) no-repeat center fixed;
+    background:url(./petphotos/rainbow.jpg) no-repeat center fixed;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
@@ -14,17 +20,58 @@ body{
     margin: 100px;
     padding: 95px 20px;
     border: 100px;
-    height: 650px;
-    width: 650px;
+    height: 750px;
+    width: 750px;
+    position: relative
 }
-
+/* found a way to shrink my slides */
 .together{
     /* padding: 100px 100px;
     border: 100px; */
     background: ;
     width: 300px;
     height: 300px;
-    outline: 5px solid black;
-    position: relative;
-    margin:100px 100px 100px 100;
+    
+    margin: 950px;
 }
+
+.footer {
+    opacity: 1; 
+
+    padding: 50px 100px;
+    font-family: 'Lemonada', cursive;
+    background:url(./petphotos/background2.jpg) no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    /* background-color:rgba(255, 0, 179, 0.3) ; */
+    color: teal;
+    /* background: transparent url(../images/ab3_circle_footer.png) no repeat scroll left bottom; */
+    /* clear: both; */
+    height: 250px;
+    /* margin: auto;
+    width: 900px; */
+    /* position: relative; */
+    /* margin-top: -100px; */
+    /* margin-bottom: 50px; */
+  }
+
+  .seperate{
+      padding: 50px;
+      margin: 50px 0px 50px 0px;
+      background:url(./petphotos/background2.jpg) no-repeat center fixed;
+      -webkit-background-size:cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+      background-size:cover;
+      font-family: 'Lemonada', cursive;
+      text-align: center; 
+  }
+
+ .myDeck1{
+     margin-top: 50px;
+ }
+ .flex{
+     flex-wrap: wrap;
+ }
